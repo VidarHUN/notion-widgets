@@ -1,0 +1,35 @@
+body {
+      font-family: Impact, Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .widget-container {
+      text-align: center;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px 30px;
+    }
+
+    .price {
+      font-size: 3rem;
+      color: black;
+      margin: 0;
+    }
+
+    #currency {
+      color: black;
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+
+    #last-updated {
+      color: #888;
+      font-size: 0.9rem;
+      margin-top: 5px;
+    }
